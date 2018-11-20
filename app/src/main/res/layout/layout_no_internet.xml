@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/llNoInternet"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:padding="20dp"
+    android:gravity="center"
+    android:visibility="gone" >
+
+    <ImageView
+        android:layout_width="128dp"
+        android:layout_height="128dp"
+        app:srcCompat="@drawable/ic_no_wifi"
+        tools:ignore="ContentDescription" />
+
+    <LinearLayout
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btSettings"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/label_settings"
+            android:textSize="16sp"
+            tools:ignore="ButtonStyle" />
+
+        <Button
+            android:id="@+id/btReload"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/label_reload"
+            android:textSize="16sp"
+            tools:ignore="ButtonStyle" />
+    </LinearLayout>
+
+</LinearLayout>
