@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">SmartGoala</string>
+
+    <string name="label_settings">Settings</string>
+    <string name="label_reload">Reload</string>
+
+    <string name="label_loading">%d%%</string>
+
 </resources>
