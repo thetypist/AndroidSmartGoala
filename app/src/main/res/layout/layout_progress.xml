@@ -6,10 +6,11 @@
     android:id="@+id/llProgress"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    android:orientation="vertical"
-    android:layout_gravity="center"
+    android:orientation="horizontal"
     android:gravity="center"
     android:visibility="gone"
+    android:padding="8dp"
+    android:background="@color/colorProgressBackground"
     tools:ignore="UseCompoundDrawables">
 
     <ImageView
@@ -24,6 +25,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textColor="@android:color/black"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
         android:textSize="18sp" />
 
 </LinearLayout>
